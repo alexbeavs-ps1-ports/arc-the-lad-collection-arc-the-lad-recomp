@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Arc the Lad Collection - Arc the Lad",
+    "id": "SLUS-01224",
+    "boot_exe": "SLUS_012.24"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Arc the Lad Collection - Arc the Lad (USA).cue",
+    "bin_name": "Arc the Lad Collection - Arc the Lad (USA).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 627784080,
+      "md5": "70e2b965b293af4845e1c0735f2b0ddf",
+      "sha1": "a402e9ea47a7715058f23aa980837aea1ff26e04",
+      "crc32": "cd0ad73b"
+    },
+    "disc_fp": "42acc95107ee872bc58adf202633384dc5d97138bac3359dee49a8b9b94dcaea"
+  },
+  "exe": {
+    "load_address": "0x8011AC00",
+    "entry_pc": "0x801762E8",
+    "text_size": "0x0008F800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 1524,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK — Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Arc the Lad Collection - Arc the Lad",
+  "system": "PS1",
+  "type": "recomp",
+  "toolchain": "psxrecomp",
+  "status": "exploring",
+  "project": "arc-the-lad-collection-arc-the-lad-recomp",
+  "original": {
+    "region": "USA",
+    "serial": "SLUS-01224"
+  }
+}
